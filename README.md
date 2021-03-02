@@ -7,4 +7,4 @@ This script gives the ability to open/close all doors, and toggle scene lights f
 - Ability to toggle scene lighting from outside the vehicle.
 
 # Contributions
-- `NoneVale_`
+- `IceTheDev`
