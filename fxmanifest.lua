@@ -27,11 +27,10 @@
                               Patreon: patreon.com/redneckmods                             
 --]]
 
-fx_version 'adamant'
+fx_version 'cerulean'
 game 'gta5'
 
-description 'Skeeter Trucks'
-authors 'IceTheDev'
-
-shared_script 'config.lua'
-client_script 'client.lua'
+client_scripts {
+  'config.lua',
+  'client.lua'
+}
