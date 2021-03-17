@@ -28,9 +28,15 @@
 --]]
 
 fx_version 'cerulean'
-game 'gta5'
+games      { 'gta5' }
+
+--
+-- Client
+--
 
 client_scripts {
   'config.lua',
-  'client.lua'
+
+  'client/redneck.lua',
+  'client/client.lua'
 }
