@@ -15,13 +15,13 @@ This script adds the ability to open the compartment doors and toggle all scene 
 - Toggle the compartment lights.
 - Toggle left, right, rear, and ground scene lights from outside of the vehicle.
 
-## Installation
+## Installation & usage
 
 ### Installing
 
 Simply add the `Skeeter-Trucks` resource to your FiveM server and ensure it is started.
 
-### Usage
+### Using
 
 Once you exit a Skeeter truck, you will see help text telling you the state of the compartments and each light, and the hotkey to toggle them.
 
@@ -31,6 +31,6 @@ Once you exit a Skeeter truck, you will see help text telling you the state of t
  
 ## Contributors
 
-- https://github.com/IceTheDev
-- https://github.com/Scullyy
-- https://github.com/CharlesHacks
+- [IceTheDev](https://github.com/IceTheDev)
+- [Scullyy](https://github.com/Scullyy)
+- [CharlesHacks](https://github.com/Scullyy)
