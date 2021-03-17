@@ -31,6 +31,6 @@ Once you exit a Skeeter truck, you will see help text telling you the state of t
  
 ## Contributors
 
-- https://github.com/IceTheDev
-- https://github.com/Scullyy
-- https://github.com/CharlesHacks
+- [IceTheDev](https://github.com/IceTheDev)
+- [Scullyy](https://github.com/Scullyy)
+- [CharlesHacks](https://github.com/CharlesHacks)
