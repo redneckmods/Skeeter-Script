@@ -33,4 +33,4 @@ Once you exit a Skeeter truck, you will see help text telling you the state of t
 
 - [IceTheDev](https://github.com/IceTheDev)
 - [Scullyy](https://github.com/Scullyy)
-- [CharlesHacks](https://github.com/Scullyy)
+- [CharlesHacks](https://github.com/CharlesHacks)
