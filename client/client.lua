@@ -6,11 +6,11 @@ local lastTruck = nil
 
 Citizen.CreateThread(function()
     while true do
-        Citizen.Wait(0)
+        
 
         local playerId       = PlayerPedId()
         local currentVehicle = GetVehiclePedIsIn(playerId, true)
-        local sleep          = 500
+        local sleep          = 1000
 
         if currentVehicle and currentVehicle ~= lastTruck then
             if Config.SkeeterVehicles[GetEntityModel(currentVehicle)] then
@@ -22,7 +22,7 @@ Citizen.CreateThread(function()
             local distanceToTruck = #(GetEntityCoords(playerId) - GetEntityCoords(lastTruck))
 
             if distanceToTruck < 6 then
-                sleep = 0
+                sleep = 9
 
                 local currentState = getCurrentTruckState(lastTruck)
 
@@ -103,6 +103,7 @@ Citizen.CreateThread(function()
                 end
             end
         end
+        Citizen.Wait(sleep)
     end
 end)
 
