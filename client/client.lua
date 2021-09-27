@@ -30,12 +30,16 @@ Citizen.CreateThread(function()
 
                 if IsControlJustPressed(0, 51) then 
                     if currentState.compartments then
-                        SetVehicleDoorShut(lastTruck, 5, false)
                         SetVehicleDoorShut(lastTruck, 4, false)
+                        Citizen.Wait(500)
+                        SetVehicleDoorShut(lastTruck, 5, false)
+                        
+                        
 
                         Redneck.GUI.ShowNotification('Trunk closed.', nil, true, false)
                     else
                         SetVehicleDoorOpen(lastTruck, 5, false, false)
+                        Citizen.Wait(500)
                         SetVehicleDoorOpen(lastTruck, 4, false, false)
 
                         Redneck.GUI.ShowNotification('Trunk opened.', nil, true, false)
